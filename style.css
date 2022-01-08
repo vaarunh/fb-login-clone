@@ -1,0 +1,125 @@
+html{
+    background-color: #F0F2F5;
+}
+
+.left-section{
+    align-content: center;
+    padding-left: 10%;
+    float: left;
+    width: 50%;
+    top: 30%;
+    position:fixed;
+}
+
+
+.left-text{
+    font-family: Helvetica;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 28px;
+    color: #1c1e21;
+    line-height: 32px;
+}
+
+
+.right-section{
+    align-content: center;
+    float: right;
+    width: 50%;
+    margin-top: 10%;
+    padding-left: 70px;
+}
+
+.email{
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 16px;
+    width: 330px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 16px 14px 16px 14px;
+    margin: 6px;
+    border-color: rgb(224, 224, 224);
+}
+
+.password{
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 16px;
+    width: 330px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 16px 14px 16px 14px;
+    margin: 6px;
+    border-color: rgb(224, 224, 224);
+}
+
+form{
+    align-items: center;
+    width: 60%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(0, 0, 0, 0.1) 0px 8px 16px 0px;
+    background-color: white;
+    border-radius: 6px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+.login-btn{
+    width: 330px;
+    font-family: Helvetica;
+    font-size: 20px;
+    line-height: 48px;
+    text-align: center;
+    background-color: #1877f2;
+    color: #ffffff;
+    border-radius: 6px;
+    border: 0ex;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.forgot-pass{
+    font-size: 14px;
+    margin-top: 15px;
+    line-height: 18.76px;
+    text-decoration: none;
+    color: #1877f2;
+}
+
+a:link{
+    text-decoration:none;
+    color: #1877f2;
+}
+a:hover{
+    text-decoration: underline;
+    color: #1877f2;
+}
+
+.line{
+    margin-top: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.create-acc-btn{
+    background-color: #42b72a;
+    font-family: Helvetica;
+    color: #ffffff;
+    font-size: 17px;
+    line-height: 45px;
+    text-align: center;
+    font-weight: 700;
+    border: none;
+    border-radius: 6px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-top: 10px;
+}
+
+.bottom-text{
+    margin-top: 28px;
+    font-size: 14px;
+    line-height: 18.76px;
+    text-align: center;
+    width: 70%;
+
+}
