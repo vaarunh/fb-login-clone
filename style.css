@@ -4,7 +4,7 @@ html{
 
 .left-section{
     align-content: center;
-    padding-left: 10%;
+    padding-left: 6%;
     float: left;
     width: 50%;
     top: 30%;
@@ -19,6 +19,7 @@ html{
     font-size: 28px;
     color: #1c1e21;
     line-height: 32px;
+    padding-left: 29px;
 }
 
 
@@ -39,6 +40,7 @@ html{
     padding: 16px 14px 16px 14px;
     margin: 6px;
     border-color: rgb(224, 224, 224);
+    border-width: thin;
 }
 
 .password{
@@ -50,17 +52,24 @@ html{
     padding: 16px 14px 16px 14px;
     margin: 6px;
     border-color: rgb(224, 224, 224);
+    border-width: thin;
 }
 
-form{
+input:focus{
+    border-color: #1877f2;
+    border-width: 2px;
+    outline: none !important;
+}
+
+#login-form{
     align-items: center;
-    width: 60%;
+    width: 65%;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(0, 0, 0, 0.1) 0px 8px 16px 0px;
     background-color: white;
     border-radius: 6px;
     text-align: center;
-    padding-top: 15px;
-    padding-bottom: 20px;
+    padding: 10px;
+    
 }
 
 .login-btn{
@@ -113,6 +122,7 @@ a:hover{
     padding-left: 16px;
     padding-right: 16px;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .bottom-text{
@@ -120,6 +130,231 @@ a:hover{
     font-size: 14px;
     line-height: 18.76px;
     text-align: center;
-    width: 70%;
+    width: 65%;
+    
+}
 
+#popup-title{
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 700;
+    color: #1c1e21;
+    font-family: Helvetica;
+}
+
+#popup-des{
+    font-family: Helvetica;
+    line-height: 24px;
+    color: #606770;
+    padding-left: 2px;
+    font-size: 15px;
+}
+
+#f-name{
+    padding: 11px;
+    font-family: Helvetica;
+    line-height: 16px;
+    text-align: start;
+    width: 255px;
+    border-radius: 5px;
+    border-width: 1px;
+    background-color: #F5F6F7;
+}
+
+#l-name{
+    padding: 11px;
+    font-family: Helvetica;
+    line-height: 16px;
+    text-align: start;
+    width: 255px;
+    border-radius: 5px;
+    border-width: 1px;
+    margin-left: 5px;
+    font-size: 15px;
+    background-color: #F5F6F7;
+}
+
+#email{
+    padding: 11px;
+    font-family: Helvetica;
+    line-height: 16px;
+    text-align: start;
+    width: 520px;
+    border-radius: 5px;
+    border-width: 1px;
+    margin-top: 10px;
+    font-size: 15px;
+    background-color: #F5F6F7;
+}
+
+#pass{
+    padding: 11px;
+    font-family: Helvetica;
+    line-height: 16px;
+    text-align: start;
+    width: 520px;
+    border-radius: 5px;
+    border-width: 1px;
+    margin-top: 10px;
+    font-size: 15px;
+    background-color: #F5F6F7;
+}
+
+#dob-text{
+    padding-top: 10px;
+    font: 15px;
+    padding-left: 25px;
+    text-align: start;
+}
+
+#select-day{
+    padding: 7px;
+    font-family: Helvetica;
+    line-height: 10px;
+    text-align: start;
+    width: 30%;
+    border-radius: 5px;
+    border-width: 1px;
+    font-size: 15px;
+    background-color: #ffffff;
+}
+#select-month{
+    padding: 7px;
+    font-family: Helvetica;
+    line-height: 10px;
+    text-align: start;
+    width: 30%;
+    border-radius: 5px;
+    border-width: 1px;
+    font-size: 15px;
+    background-color: #ffffff;
+}
+
+#select-year{
+    padding: 7px;
+    font-family: Helvetica;
+    line-height: 10px;
+    text-align: start;
+    width: 30%;
+    border-radius: 5px;
+    border-width: 1px;
+    font-size: 15px;
+    background-color: #ffffff;
+}
+
+#gender-text{
+    padding-top: 10px;
+    font: 15px;
+    padding-left: 25px;
+    text-align: start;
+}
+
+ .sex .opt-val {
+    box-sizing: border-box;
+    color: #1c1e21;
+    display: inline-block;
+    font-family: Helvetica;
+    font-size: 15px;
+    line-height: 36px;
+    padding: 0 28px 0 10px;
+    width: 100%;
+    border: 1px solid red;
+}
+
+
+.sex .opt-val {
+    height: 36px;
+    margin: 0;
+    position: absolute;
+    right: 10px;
+    top: 0;
+    border: 1px solid red;
+}
+.opt-val {
+    color: #1d2129;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 18px;
+    padding: 0 10px 0 3px;
+    width: 23.1%;
+    
+}
+
+.sex ._5k_3 {
+    background-color: #fff;
+    border: 1px solid #ccd0d5;
+    box-sizing: border-box;
+    display: inline-block;
+    flex: 1 0 auto;
+    font-weight: normal;
+    height: 36px;
+    margin: 8px 6px 6px;
+    padding: 0;
+    position: relative;
+    
+}
+
+ .sex .opt-val {
+    box-sizing: border-box;
+    color: #1c1e21;
+    display: inline-block;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 36px;
+    padding: 0 28px 0 10px;  
+}
+
+.option{
+    border: 1px solid;
+    width: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+.option1{
+    border: 1px solid;
+    width: 50px;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+.option2{
+    border: 1px solid;
+    width: 50px;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+#btm-text{
+    color: #777777;
+    font-size: 11px;
+    margin-top: 15px;
+    margin-bottom: 11px;
+    padding-left: 25px;
+    line-height: 14.74px;
+    text-align: start;
+}
+
+#signup-form{
+    align-items: center;
+    background-color: white;
+    border-radius: 6px;
+    text-align: center;
+    padding: 5px;
+}
+
+#sign-up-btn{
+    background-color: #42b72a;
+    font-family: Helvetica;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    font-weight: 700;
+    border: none;
+    border-radius: 6px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
